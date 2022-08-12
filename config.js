@@ -79,7 +79,7 @@ global.author = 'Deyner 𝘿𝙞𝙤𝙨'
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.vs = '1.2.0'
+global.vs = '1.2.8'
 global.version = vs
 
 global.gt = 'Deyner𝘽𝙤𝙩-𝙈𝘿'
@@ -97,10 +97,10 @@ global.gatabot = md
 global.nn = 'https://chat.whatsapp.com/CunoFmEfBW75APfI0ZO5DJ'
 global.nngrupo = nn //Grupo 1
 
-global.nnn = 'https://chat.whatsapp.com/KFtXRV9OdK31cArkyxRpq6'
+global.nnn = 'https://chat.whatsapp.com/IBz3pgrnjwjKAYoNCTTPbB'
 global.nnngrupo = nnn //Grupo 2
 
-global.nnnt = 'https://chat.whatsapp.com/IG6aOo0xCuAARZCTlMImPI'
+global.nnnt = 'https://chat.whatsapp.com/J0SpDlnOdfOFORD247F5wH'
 global.nnngrupo = nnnt //Grupo 3
 
 global.paypal = 'https://paypal.me/OficialGD'

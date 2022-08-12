@@ -49,6 +49,8 @@ export async function handler(chatUpdate) {
 			    user.joincount = 1
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
+		if (!isNumber(user.lastcofre))
+                    user.lastcofre = 0
                 if (!('registered' in user))
                     user.registered = false
                 if (!user.registered) {
@@ -160,6 +162,8 @@ export async function handler(chatUpdate) {
 
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
+		if (!isNumber(user.lastcofre))
+                    user.lastcofre = 0
                 if (!isNumber(user.lastadventure))
                     user.lastadventure = 0
                 if (!isNumber(user.lastfishing))
@@ -238,6 +242,7 @@ export async function handler(chatUpdate) {
                     fishingroddurability: 0,
 
                     lastclaim: 0,
+		    lastcofre: 0,
                     lastadventure: 0,
                     lastfishing: 0,
                     lastdungeon: 0,
@@ -271,12 +276,12 @@ export async function handler(chatUpdate) {
                     chat.modohorny = false
                 if (!('stickers' in chat))
                     chat.stickers = false
-		//if (!('temporal' in chat))
-                    //chat.temporal = false
                 if (!('autosticker' in chat))
                     chat.autosticker = false  
                 if (!('audios' in chat))
-                    chat.audios = false  
+                    chat.audios = false 
+		if (!('antiver' in chat))
+                    chat.antiver = true
                 if (!('antiLink' in chat))
                     chat.antiLink = false
                 if (!('antiLink2' in chat))
@@ -299,9 +304,9 @@ export async function handler(chatUpdate) {
                     delete: true,
                     modohorny: true,
                     stickers: true,
-		    //temporal: true,
                     autosticker: false,
                     audios: true,
+		    antiver: true,
                     antiLink: false,
                     antiLink2: false,
                     viewonce: false,
