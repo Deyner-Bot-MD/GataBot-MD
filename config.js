@@ -1,8 +1,10 @@
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
+import moment from 'moment-timezone'
+import fs from 'fs'
 
-//⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰
+//⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰ 
 global.owner = [
   ['17828237137', 'DeynerBot-𝙈𝘿 💖🐈', true],
   ['523532470551', 'Deyner Bot-𝙈𝘿 2 💖🐈', true],
@@ -44,7 +46,8 @@ global.APIs = { // API Prefix.
   neoxr: 'https://neoxr-api.herokuapp.com',
   ana: 'https://anabotofc.herokuapp.com/',
   kanx: 'https://kannxapi.herokuapp.com/',
-  dhnjing: 'https://dhnjing.xyz'
+  dhnjing: 'https://dhnjing.xyz',
+  'https://violetics.pw': 'beta'
 },
   
 global.APIKeys = { // APIKey Here
@@ -67,6 +70,12 @@ global.APIKeys = { // APIKey Here
   'https://anabotofc.herokuapp.com/': 'AnaBot'
 }
 
+//⊱ ━━━━━.⋅ KEY ⋅.━━━━ ⊰
+
+global.Key360 = ['964f-0c75-7afc'] //keys ephoto360
+//global.beta = ['https://violetics.pw'] //keys ephoto360
+
+//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
@@ -149,15 +158,117 @@ global.lolkeysapi = lolkeys[Math.floor(lolkeys.length * Math.random())]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
+
+//⊱ ━━━━━.⋅ RPG ⋅.━━━━ ⊰
+
+global.flaaa = [
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
+
+global.cmenut = '❏––––––『'
+global.cmenub = '┊✦ '
+global.cmenuf = '┗━═┅═━––––––๑\n'
+global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     '
+
+global.htki = '*⭑•̩̩͙⊱•••• ☪*'
+global.htka = '*☪ ••••̩̩͙⊰•⭑*'
+
+/*global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`//America/Los_Angeles
+global.fgif = {
+            key: {
+                 participant : '0@s.whatsapp.net'},
+            message: { 
+                        "videoMessage": { 
+                        "title": wm,
+                        "h": `Hmm`,
+                        'seconds': '999999999', 
+                        'gifPlayback': 'true', 
+                        'caption': bottime,
+                        'jpegThumbnail': fs.readFileSync('./media/menus/Menu3.jpg')
+                               }
+                              }
+                             }*/
+
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+
+
 global.multiplier = 60 // Cuanto más alto, más difícil subir de nivel | The higher, The harder levelup 
 
+//Emojis RPG
 global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
     let emot = {
-      level: '🏆',
-      limit: '💎',
-      exp: '🕹️'
+      agility: '🤸‍♂️ ',
+      arc: '🏹 ',
+      armor: '🥼 ',
+      armordurability: '🤺 ',
+      bank: '🏦 ',
+      bibitanggur: '🍇 ',
+      bibitapel: '🍎 ',
+      bibitjeruk: '🍊 ',
+      bibitmangga: '🥭 ',
+      bibitpisang: '🍌 ',
+      bow: '🏹 ',
+      bull: '🐃 ',
+      cat: '🐈 ',
+      chicken: '🐓 ',
+      common: '📦 ',
+      cow: '🐄 ',
+      crystal: '🔮 ',
+      darkcrystal: '♠️ ',
+      diamond: '💎 ',
+      dog: '🐕 ',
+      dragon: '🐉 ',
+      elephant: '🐘 ',
+      emerald: '💚 ',
+      exp: '✉️ ',
+      fishingrod: '🎣 ',
+      fox: '🦊 ',
+      gems: '🍀 ',
+      giraffe: '🦒 ',
+      griffin: '🚰 ',
+      gold: '👑 ',
+      health: '❤️ ',
+      horse: '🐎 ',
+      intelligence: '🧠 ',
+      iron: '⛓️ ',
+      keygold: '🔑 ',
+      keyiron: '🗝️ ',
+      kyubi: '🍁 ',
+      knife: '🔪 ',
+      legendary: '🗃️ ',
+      level: '🧬 ',
+      limit: '🌌 ',
+      lion: '🦁 ',
+      magicwand: '⚕️ ',
+      mana: '🪄 ',
+      money: '💵 ',
+      mythic: '🗳️ ',
+      pet: '🎁 ',
+      petFood: '🍖 ',
+      pickaxe: '⛏️ ',
+      pointxp: '📧 ',
+      potion: '🥤 ',
+      phonix: '🎗️ ',
+      rhinoceros: '🦏 ',
+      rock: '🪨 ',
+      robo: '🚔 ',
+      snake: '🐍 ',
+      stamina: '⚡ ',
+      strength: '🦹‍ ♀️',
+      string: '🕸️ ',
+      superior: '💼 ',
+      sword: '⚔️ ',
+      tiger: '🐅 ',
+      trash: '🗑 ',
+      uncommon: '🎁 ',
+      upgrader: '🧰 ',
+      wolf: '🐺 ',
+      wood: '🪵 '
     }
     let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
     if (!results.length) return ''
